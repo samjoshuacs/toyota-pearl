@@ -1,5 +1,6 @@
 import FeaturedVehicles from "@/components/FeaturedVehicles";
 import Hero from "@/components/Hero";
+import Testimonials from "@/components/Testimonials";
 import WhyChooseUs from "@/components/WhyChooseUs";
 
 export default function Home() {
@@ -9,7 +10,7 @@ export default function Home() {
       <Hero />
       <FeaturedVehicles />
       <WhyChooseUs />
-      {/* Testimonials */}
+      <Testimonials />
 
       {/* Mid CTA */}
 
