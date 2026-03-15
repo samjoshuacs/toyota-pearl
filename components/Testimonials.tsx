@@ -38,7 +38,7 @@ const testimonials = [
   },
 ];
 
-
+// Component Body
 const Testimonials = () => {
 
   return (
@@ -64,7 +64,7 @@ const Testimonials = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-7">
 
                 {testimonials.map((t) => (
-                    <TestimonialCard testimonial={t} />
+                  <TestimonialCard key={t.id} testimonial={t} />
                 ))}
 
             </div>

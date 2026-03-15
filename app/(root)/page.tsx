@@ -1,3 +1,4 @@
+import Contacts from "@/components/Contacts";
 import CTASection from "@/components/CTASection";
 import FeaturedVehicles from "@/components/FeaturedVehicles";
 import Hero from "@/components/Hero";
@@ -13,7 +14,7 @@ export default function Home() {
       <WhyChooseUs />
       <Testimonials />
       <CTASection />
-      {/* Contact */}
+      <Contacts />
 
       {/* Footer */}
     </div>

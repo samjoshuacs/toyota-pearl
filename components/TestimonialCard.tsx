@@ -5,6 +5,7 @@ import Image from "next/image";
 // Data Types
 import { TestimonialCardProps } from "@/types/testimonial";
 
+// Component Body
 const TestimonialCard = ({testimonial}:TestimonialCardProps) => {
     return (
         <div
