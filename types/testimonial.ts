@@ -11,5 +11,5 @@ interface Testimonial {
 
 // Props
 export interface TestimonialCardProps {
-  testimonial: Testimonial[];
+  testimonial: Testimonial;
 }
