@@ -5,7 +5,7 @@ import Link from "next/link";
 
 // Dummy Data
 const AGENT_NAME = "Mae Pearl";
-const HERO_IMAGE = "https://images.unsplash.com/photo-1772389192167-b427bc7c1e40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxUb3lvdGElMjBTVVYlMjBoZXJvJTIwc2hvdHxlbnwxfHx8fDE3NzMzMDAxMzJ8MA&ixlib=rb-4.1.0&q=80&w=1080";
+const HERO_IMAGE = "/images/vehicle_1.jpg";
 const AGENT_IMAGE = "/images/photo_2.jpg";
 
 const Hero = () => {
@@ -30,7 +30,7 @@ const Hero = () => {
 
           <div className="h-fit mb-5">
             <span className="bg-[#EB0A1E] text-white text-xs font-semibold px-4 py-1.5 rounded-full mb-6 tracking-wider uppercase">
-                Authorized Toyota Agent
+              Authorized Toyota Agent
             </span>
           </div>
 
@@ -69,7 +69,7 @@ const Hero = () => {
               <Image
                 src={AGENT_IMAGE}
                 alt={`${AGENT_NAME} - Certified Toyota Marketing Professional`}
-                className="w-full h-105 lg:h-140 object-cover object-top"
+                className="w-full h-105 lg:h-140 object-cover object-center"
                 height={420}
                 width={560}
                 style={{ borderRadius: "16px" }}

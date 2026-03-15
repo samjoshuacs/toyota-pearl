@@ -1,5 +1,6 @@
 import FeaturedVehicles from "@/components/FeaturedVehicles";
 import Hero from "@/components/Hero";
+import WhyChooseUs from "@/components/WhyChooseUs";
 
 export default function Home() {
   
@@ -7,9 +8,7 @@ export default function Home() {
     <div className="w-full">
       <Hero />
       <FeaturedVehicles />
-
-      {/* Analytics */}
-
+      <WhyChooseUs />
       {/* Testimonials */}
 
       {/* Mid CTA */}
