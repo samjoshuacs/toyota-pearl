@@ -1,3 +1,4 @@
+import CTASection from "@/components/CTASection";
 import FeaturedVehicles from "@/components/FeaturedVehicles";
 import Hero from "@/components/Hero";
 import Testimonials from "@/components/Testimonials";
@@ -11,9 +12,7 @@ export default function Home() {
       <FeaturedVehicles />
       <WhyChooseUs />
       <Testimonials />
-
-      {/* Mid CTA */}
-
+      <CTASection />
       {/* Contact */}
 
       {/* Footer */}
