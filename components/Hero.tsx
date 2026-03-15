@@ -71,7 +71,7 @@ const Hero = () => {
                 alt={`${AGENT_NAME} - Certified Toyota Marketing Professional`}
                 className="w-full h-105 lg:h-140 object-cover object-top"
                 height={420}
-                width={100}
+                width={560}
                 style={{ borderRadius: "16px" }}
               />
 
