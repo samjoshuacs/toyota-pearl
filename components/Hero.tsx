@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 // Dummy Data
-const AGENT_NAME = "Mae Pearl";
+const AGENT_NAME = "Pearl Tingcang";
 const HERO_IMAGE = "/images/vehicle_1.jpg";
 const AGENT_IMAGE = "/images/photo_2.jpg";
 

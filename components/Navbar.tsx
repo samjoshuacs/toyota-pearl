@@ -1,7 +1,6 @@
 'use client';
 
 // Libraries
-import localFont from "next/font/local";
 import { useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
 import Image from "next/image";
@@ -30,7 +29,7 @@ const Navbar = () => {
             <Image src="/images/photo_2.jpg" className="w-10 h-10 rounded-full bg-[#000000] flex items-center justify-center border object-cover" alt="Pearl Tingcang Toyota Agent Icon Photo" width={10} height={10}/>
             <div>
               <p className="text-[#1a1a1a] font-bold text-base leading-tight">Toyota Agent</p>
-              <p className="text-[#EB0A1E] font-semibold text-xs leading-tight">Pearl</p>
+              <p className="text-[#EB0A1E] font-semibold text-xs leading-tight">Pearl Tingcang</p>
             </div>
           </Link>
 
