@@ -8,6 +8,7 @@ const AGENT_NAME = "Pearl Tingcang";
 const HERO_IMAGE = "/images/vehicle_1.jpg";
 const AGENT_IMAGE = "/images/photo_2.jpg";
 
+// Component Body
 const Hero = () => {
   return (
     <section

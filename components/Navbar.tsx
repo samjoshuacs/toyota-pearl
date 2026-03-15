@@ -18,6 +18,7 @@ const navLinks = [
 // Component Body
 const Navbar = () => {
 
+  // Component States
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
