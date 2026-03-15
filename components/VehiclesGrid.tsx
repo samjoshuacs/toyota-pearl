@@ -1,5 +1,6 @@
 // Libraries
 import { Fuel, Settings, Zap } from "lucide-react";
+import Image from "next/image";
 
 // Data Types
 interface Vehicle {
@@ -36,10 +37,12 @@ const VehiclesGrid = ({vehicles, max = 3}: VehiclesGridProps) => {
         >
             {/* Image */}
             <div className="relative overflow-hidden h-52">
-            <img
+            <Image
                 src={car.image}
                 alt={car.model}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                width={400}
+                height={600}
             />
             {car.badge && (
                 <span className="absolute top-3 left-3 bg-[#EB0A1E] text-white text-xs font-semibold px-3 py-1 rounded-full">
