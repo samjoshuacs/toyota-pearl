@@ -27,7 +27,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
 
           <Link href="/" className="flex items-center gap-3">
-            <Image src="/images/photo_2.jpg" className="w-10 h-10 rounded-full bg-[#000000] flex items-center justify-center border object-cover" alt="Pearl Tingcang Toyota Agent Icon Photo" width={10} height={10}/>
+            <Image src="/images/photo_2.jpg" className="w-10 h-10 rounded-full bg-[#000000] flex items-center justify-center border object-cover" alt="Pearl Tingcang Toyota Agent Icon Photo" width={40} height={40}/>
             <div>
               <p className="text-[#1a1a1a] font-bold text-base leading-tight">Toyota Agent</p>
               <p className="text-[#EB0A1E] font-semibold text-xs leading-tight">Pearl Tingcang</p>
