@@ -1,12 +1,12 @@
-import { ChevronDown } from "lucide-react";
+// Libraries
+import { ChevronDown, BadgeCheck } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
 
+// Dummy Data
 const AGENT_NAME = "Mae Pearl";
 const HERO_IMAGE = "https://images.unsplash.com/photo-1772389192167-b427bc7c1e40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxUb3lvdGElMjBTVVYlMjBoZXJvJTIwc2hvdHxlbnwxfHx8fDE3NzMzMDAxMzJ8MA&ixlib=rb-4.1.0&q=80&w=1080";
 const AGENT_IMAGE = "/images/photo_2.jpg";
-
-import Image from "next/image";
-import Link from "next/link";
-import { BadgeCheck } from "lucide-react";
 
 const Hero = () => {
   return (
