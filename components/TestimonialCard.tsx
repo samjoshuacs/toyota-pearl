@@ -6,7 +6,7 @@ import Image from "next/image";
 import { TestimonialCardProps } from "@/types/testimonial";
 
 const TestimonialCard = ({testimonial}:TestimonialCardProps) => {
-  return (
+    return (
         <div
             key={testimonial.id}
             className="bg-[#f8f8f8] rounded-2xl p-7 flex flex-col gap-5 hover:shadow-md transition-shadow duration-300 relative"
@@ -47,8 +47,7 @@ const TestimonialCard = ({testimonial}:TestimonialCardProps) => {
 
         </div>
 
-    
-  )
+    )
 }
 
 export default TestimonialCard
